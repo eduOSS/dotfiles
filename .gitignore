@@ -1,0 +1,14 @@
+# Ignore everything
+*
+# But not these files
+!.gitignore
+!.gitconfig
+!.bashrc
+!.vimrc
+
+!.vim/
+!vim/
+
+# even if they are in subdirectories
+# !*/
+# source: http://stackoverflow.com/a/987162/3552975
