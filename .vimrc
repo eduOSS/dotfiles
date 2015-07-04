@@ -57,7 +57,6 @@ augroup end
 
 " For futher asking---------------------- {{{
 augroup almost_ready
-    "vnoremap <localleader>d y<esc>(yas :'<,'> w! >> /home/leo/Documents/corpora/myvoca.dt<cr>
     "vnoremap <localleader>a execute "normal! "ay<esc>"byas" | let @a=substitute(@a,'\n',' ','g')\r | let @b=substitute(@b,'\n',' ','g')\r | sp /home/leo/Documents/corpora/myvoca.dt\rG"apGo<esc>"bpGo<esc>"#pGo<esc> | w\rZZ
     "expand('%:t')
     ":set cmdheight=2
